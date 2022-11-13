@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/modern-ethereum/static/css/main.37b33595.css",
+    "main.js": "/modern-ethereum/static/js/main.df46b946.js",
+    "static/media/header-img.png": "/modern-ethereum/static/media/header-img.ca8eda8869a31ada88ab.png",
+    "static/media/eth_logo.png": "/modern-ethereum/static/media/eth_logo.c39dbb2d6cd78fdff58f.png",
+    "index.html": "/modern-ethereum/index.html",
+    "main.37b33595.css.map": "/modern-ethereum/static/css/main.37b33595.css.map",
+    "main.df46b946.js.map": "/modern-ethereum/static/js/main.df46b946.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37b33595.css",
+    "static/js/main.df46b946.js"
+  ]
+}
