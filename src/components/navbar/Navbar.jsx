@@ -9,19 +9,29 @@ const Menu = () => {
   return (
     <>
       <p>
-        <a href="#UseEthereum">Use Ethereum</a>
+        <a className="hover" href="#UseEthereum">
+          Use Ethereum
+        </a>
       </p>
       <p>
-        <a href="#Learn">Learn</a>
+        <a className="hover" href="#Learn">
+          Learn
+        </a>
       </p>
       <p>
-        <a href="#Developers">Developers</a>
+        <a className="hover" href="#Developers">
+          Developers
+        </a>
       </p>
       <p>
-        <a href="#Enterprise">Enterprise</a>
+        <a className="hover" href="#Enterprise">
+          Enterprise
+        </a>
       </p>
       <p>
-        <a href="#Community">Community </a>
+        <a className="hover" href="#Community">
+          Community{" "}
+        </a>
       </p>
     </>
   );
@@ -42,7 +52,7 @@ const Navbar = () => {
         <div className="navbar_languages">
           <MdLanguage color="white" size="25px" />
           <p>
-            <a href="#Language">Language</a>
+            <a className="hover" href="#Language">Language</a>
           </p>
         </div>
 
@@ -65,9 +75,9 @@ const Navbar = () => {
               <div className="navbar_menu_container_links">
                 <Menu />
               </div>
-              <div className="navbar_menu_container_links_language">
+              <div className="navbar_menu_container_links_language ">
                 <p>
-                  <a href="#Language">Language</a>
+                  <a className="hover" href="#Language">Language</a>
                 </p>
               </div>
             </div>

@@ -21,7 +21,7 @@ const Header = () => {
         </div>
       </div>
       <div className="explore_button">
-        <button>Explore Ethereum</button>
+        <button className="hover">Explore Ethereum</button>
       </div>
     </div>
   );

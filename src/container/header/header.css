@@ -1,4 +1,4 @@
-.header_main{
+.header_main {
   display: flex;
   flex-direction: column;
 }
@@ -84,25 +84,25 @@
   width: 100%;
 }
 
-.explore_button{
+.explore_button {
   display: flex;
   margin: 2rem;
   align-items: center;
   justify-content: center;
 }
-.explore_button button{
-padding: 20px;
-border: none;
-background-color: transparent;
-border: 1px solid white;
-color: white;
-border-radius: 10px;
-font-size: 1rem;
+.explore_button button {
+  padding: 20px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
 }
-.explore_button button:hover{
+/* .explore_button button:hover{
   color:   #ff4820;
   border: 1px solid red;
-}
+} */
 @media screen and (max-width: 1000px) {
   .header {
     flex-direction: column;
@@ -116,10 +116,27 @@ font-size: 1rem;
   }
 }
 @media screen and (max-width: 500px) {
-  .header{
+  .header {
     margin-top: 2rem;
   }
-  .header_content h1{
-   font-size: 3rem;
+  .header_content h1 {
+    font-size: 3rem;
   }
+}
+
+.hover {
+  --s: 0.2em; /* the thickness of the line */
+  --c: red; /* the color */
+
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.hover:hover {
+  --_p: 100%;
+  color: red;
 }
